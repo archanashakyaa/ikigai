@@ -1,0 +1,95 @@
+.section {
+    padding: var(--space-8) 0;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-4);
+    align-items: center;
+    margin-top: var(--space-6);
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    width: 350px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.premiumCard {
+    transform: scale(1.05);
+    border: 2px solid var(--primary);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    position: relative;
+    z-index: 10;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid #edf2f7;
+}
+
+.planName {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: var(--space-2);
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-light);
+}
+
+.period {
+    font-size: 1rem;
+    color: #718096;
+    font-weight: normal;
+}
+
+.features {
+    list-style: none;
+    margin-bottom: var(--space-6);
+    flex-grow: 1;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #4a5568;
+}
+
+.check {
+    color: var(--status-green);
+    font-weight: bold;
+}
+
+.cross {
+    color: #a0aec0;
+}
+
+.popularBadge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
