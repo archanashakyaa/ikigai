@@ -1,4 +1,5 @@
-# MindFit - Your AI Mental Fitness Companion 🧠✨
+# MindFit - Your AI Mental Fitness Companion 🧠✨  https://ikigai-snowy.vercel.app/
+
 
 MindFit is a comprehensive, AI-powered mental wellness dashboard designed to help students and individuals track their mental fitness, vent safely, and find support in a non-judgmental environment.
 
